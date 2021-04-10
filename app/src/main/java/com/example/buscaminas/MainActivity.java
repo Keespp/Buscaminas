@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity   implements View.OnTouchLis
                             (int) event.getY())) {
                         casillas[f][c].destapado = true;
                         if (casillas[f][c].contenido == 80) {
-                            Toast.makeText(this, "Booooooooommmmmmmmmmm",
+                            Toast.makeText(this, "Booooooooommmmmmmmmmm manco",
                                     Toast.LENGTH_LONG).show();
                             activo = false;
                         } else if (casillas[f][c].contenido == 0)
